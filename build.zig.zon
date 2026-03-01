@@ -1,0 +1,13 @@
+.{
+    .name = .wayland_protocols,
+    .version = "1.47.0",
+    .fingerprint = 0xf4571e4405d430a9,
+    .minimum_zig_version = "0.16.0-dev.2535+b5bd49460",
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://gitlab.freedesktop.org/wayland/wayland-protocols/-/archive/1.47/wayland-protocols-1.47.tar.gz",
+            .hash = "N-V-__8AAFc-EABUFfXtWXDpPyGw79MctRphDb3lZx3-sITP",
+        },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "README.md", "LICENSE" },
+}
